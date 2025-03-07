@@ -1,0 +1,203 @@
+/* Full-page background */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Glassmorphic Form */
+.register-form {
+    background: rgba(255, 255, 255, 0.15); /* Transparent effect */
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(255, 254, 254);
+    text-align: center;
+    width: 350px;
+    border: 1px solid rgb(255, 253, 253);
+}
+
+/* Heading with Glowing Effect */
+.register-form h1 {
+    color: #ffcc00; /* Neon Yellow */
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff9900, 0 0 30px #ff6600;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Glowing Animation */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff9900, 0 0 30px #ff6600;
+    }
+    100% {
+        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff9900, 0 0 40px #ff3300;
+    }
+}
+
+/* Input fields */
+.register-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background: rgb(254, 254, 254);
+    color: #000;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Stylish button */
+.register-form button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #f6d365, #fda085);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.register-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4);
+}
+
+/* mobile repose */
+/* 🔹 Full-page background */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px; /* Prevents cutting on small screens */
+}
+
+/* 🔹 Glassmorphic Form */
+.register-form {
+    background: rgba(255, 255, 255, 0.15); /* Transparent effect */
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.6);
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 🔹 Heading with Glowing Effect */
+.register-form h1 {
+    color: #ffcc00; /* Neon Yellow */
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff9900, 0 0 30px #ff6600;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* 🔹 Glowing Animation */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff9900, 0 0 30px #ff6600;
+    }
+    100% {
+        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff9900, 0 0 40px #ff3300;
+    }
+}
+
+/* 🔹 Input Fields */
+.register-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: #000;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+/* 🔹 Focus Effect on Input */
+.register-form input:focus {
+    border-color: #ffcc00;
+    box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.5);
+}
+
+/* 🔹 Stylish Button */
+.register-form button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #f6d365, #fda085);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* 🔹 Button Hover Effect */
+.register-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4);
+}
+
+/* 🔹 Mobile Responsive Tweaks */
+@media (max-width: 768px) {
+    .register-form {
+        padding: 25px;
+        max-width: 90%;
+    }
+
+    .register-form h1 {
+        font-size: 22px;
+    }
+
+    .register-form input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .register-form button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* 🔹 Extra Small Screens (Phones) */
+@media (max-width: 480px) {
+    .register-form {
+        padding: 20px;
+        max-width: 95%;
+    }
+
+    .register-form h1 {
+        font-size: 20px;
+    }
+
+    .register-form input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .register-form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
