@@ -2,7 +2,7 @@
 
 ## Live demo
 
-**[Open the interactive Bank Demo](https://tamilkakashi.github.io/Protfolio/bank-demo/)**
+**[Open the interactive Bank Demo](https://tamilkakashi.github.io/Protfolio/bank-demo/index.html)**
 
 > This public link is a browser-only educational simulation. Demo accounts and transactions are stored in the visitor's browser; it is not connected to the original React/MongoDB backend and must not be used with real banking or personal information.
 
