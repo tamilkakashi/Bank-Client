@@ -21,3 +21,4 @@ Open the GitHub Pages demo at the repository Pages URL after the deployment work
 - Never enter real personal, payment, or banking information.
 
 The original React/MongoDB source on `main` has not been replaced. This deployment is isolated on branch `live-demo`.
+Deployment workflow registered on the default branch; this source folder is published from `live-demo`.
