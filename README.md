@@ -1,5 +1,14 @@
-# Getting Started with Create React App
+# Bank Application
 
+## Live demo
+
+**[Open the interactive Bank Demo](https://tamilkakashi.github.io/Protfolio/bank-demo/)**
+
+> This public link is a browser-only educational simulation. Demo accounts and transactions are stored in the visitor's browser; it is not connected to the original React/MongoDB backend and must not be used with real banking or personal information.
+
+The original React frontend and Express/MongoDB backend source code are maintained separately in this repository and [Bank-Server](https://github.com/tamilkakashi/Bank-Server). The original backend needs security fixes before public use.
+
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
